@@ -99,6 +99,7 @@ section{
     color:var(--yellow);
 }
 
+/*  side menu*/
 header{
     position: fixed;
     top:0; 
@@ -112,7 +113,7 @@ header{
     flex-flow: column;
     text-align: center;
 }
-
+/* side menu img */
 header .user img{
     height:25rem;
     width:25rem;
@@ -123,6 +124,8 @@ header .user img{
     background-color: rgb(43, 41, 41);
     border:.7rem solid var(--yellow);
 }
+
+/* side menu ing hover */
 header .user img:hover{
     height:26rem;
     width:26rem;
@@ -139,15 +142,17 @@ header .user .post{
     color:#eee;
 }
 
+/* menu side size */
 header .navbar{
     width:100%;
 }
 
+/* menu side ul */
 header .navbar ul{
     list-style: none;
-    padding:2.5rem 2rem;
-    
+    padding:2.5rem 2rem;    
 }
+
 
 header .navbar ul li a{
     display: block;
@@ -166,6 +171,7 @@ header .navbar ul li a:hover{
     font-size: 2.11rem;
 }
 
+/* burger */
 #menu{
     position: fixed;
     top:2rem; right:2rem;
@@ -177,10 +183,11 @@ header .navbar ul li a:hover{
     z-index: 1000;
     display: none;
 }
+
 #menu:hover{
     font-size: 3.2rem;
 }
-
+/* gassing */
 .home{
     display: flex;
     justify-content: center;
@@ -209,6 +216,7 @@ header .navbar ul li a:hover{
     text-align: justify;
 }
 
+/*  */
 .about{
     display: flex;
     justify-content: center;
