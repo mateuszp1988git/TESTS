@@ -20,24 +20,28 @@
     background:var(--yellow);
     color:#333;
 }
+
 /* size and not exit */
 html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
-
+/* size sidebar */
 html::-webkit-scrollbar{
     width:1.5rem;
 }
 
+/* color sidebar */
 html::-webkit-scrollbar-track{
     background:#222;
 }
 
+/* color sidebar */
 html::-webkit-scrollbar-thumb{
     background:var(--yellow);
 }
 
+/* color, overflow-x, padding */
 body{
     background:#111;
     overflow-x: hidden;
