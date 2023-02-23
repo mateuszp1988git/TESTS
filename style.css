@@ -462,6 +462,11 @@ label {
     padding: 0px 12% 0px 0px;
 }
 
+.contact{
+    color: white;
+    font-size: 4rem;
+}
+
 form {
     max-width: 500px;
     margin: 0 auto;
@@ -546,6 +551,16 @@ a:hover {
 
     .contact .row .content {
         padding-bottom: 14rem;
+    }
+
+    .contact{
+        font-size: 3rem;
+    }
+
+    .contact .row .content {
+        flex: 1 1 30rem;
+        padding: 0 0 0 10rem;
+        padding-bottom: 0;
     }
  }
 
